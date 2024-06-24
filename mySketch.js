@@ -30,8 +30,10 @@ function setup() {
   c_grass2 = color("#58bd4e");
   c_mountain1 = color("#906f50");
   c_mountain2 = color("#c8b396");
-  c_town1 = color("#d68f1c");
-  c_town2 = color("#424242");
+  c_town1 = color("#0097c5");
+  c_town2 = color("#0097c5");
+  // c_town1 = color("#d68f1c");
+  // c_town2 = color("#424242");
   c_water1 = color("#0097c5");
   c_water2 = color("#03769d");
   c_water3 = color("#034b71");
