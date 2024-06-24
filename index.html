@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+	<script src="rhill-voronoi-core.js"></script>
+	<script src="p5.voronoi.js"></script>
+	<script src="mySketch.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Voronoi-Map-Creation</title>
+	<style>
+		body {
+			margin: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: #f0f0f0;
+		}
+
+		#canvas-container {
+			position: relative;
+		}
+
+		#overlay-text {
+			position: absolute;
+			top: 95%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 24px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+
+		<div id="overlay-text">
+			<a href="https://whyjq.com" target="_blank">by Jiaqi Yi</a> <br>
+			<a href="#" id="save-link">[S] Save</a> <br>
+			<a href="#" id="generate-link">Click / [R] Re-generate</a>
+		</div>
+
+	<script>
+		// Add your JavaScript for handling the links here
+		document.getElementById('save-link').addEventListener('click', function () {
+			// Save functionality
+			saveCanvas('Voronoi_Map_Creation_Jiaqi_Yi', 'png');
+		});
+
+		document.getElementById('generate-link').addEventListener('click', function () {
+			// Re-generate functionality
+			clear();
+			setup();
+		});
+	</script>
+</body>
+
+</html>
