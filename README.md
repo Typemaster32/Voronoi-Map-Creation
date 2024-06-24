@@ -6,4 +6,3 @@ With the help of:
 [Javascript-Voronoi by gorhill](https://github.com/gorhill/Javascript-Voronoi))
 
 **Usage: [S] for save image; [Click] or [R] for re-generate!**
-![Uploading voronoi.png…]()
